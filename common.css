@@ -1,0 +1,115 @@
+.abstract-black-background-Studio-backdrop-well-use-as-background-1-hex {
+    color: #0D0B0C;
+}
+
+.abstract-black-background-Studio-backdrop-well-use-as-background-2-hex {
+    color: #D9D9D9;
+}
+
+.abstract-black-background-Studio-backdrop-well-use-as-background-3-hex {
+    color: #737373;
+}
+
+.abstract-black-background-Studio-backdrop-well-use-as-background-4-hex {
+    color: #595959;
+}
+
+.abstract-black-background-Studio-backdrop-well-use-as-background-5-hex {
+    color: #262626;
+}
+
+
+html {
+    font-family: "Noto Sans JP";
+}
+
+header,
+#title,
+footer {
+    background-color: #262626;
+    color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: -webkit-flex;
+}
+
+header {
+    height: 4em;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 0 1em;
+}
+
+header p {
+    font-size: 1.5em;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+#title {
+    height: 15em;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+#title h1 {
+    margin: 0;
+    font-size: 3em;
+}
+
+main {
+    min-height: calc(100vh - 4em - 4em - 15em - 10em);
+    margin: 2em 8em;
+}
+
+footer {
+    height: 10em;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    text-align: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+footer #copyright {
+    font-size: 0.7em;
+}
+
+footer a {
+    color: white;
+}
+
+h2 {
+    padding: 0.4em 0.5em;
+    /*文字の上下 左右の余白*/
+    color: #262626;
+    /*文字色*/
+    background: #f4f4f4;
+    /*背景色*/
+    border-left: solid 5px #595959;
+    /*左線*/
+    border-bottom: solid 3px #d7d7d7;
+    /*下線*/
+}
+
+button {
+    border: none;
+    padding: 15px 30px;
+    display: inline-block;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #fff;
+    background-color: #ed576c;
+}
