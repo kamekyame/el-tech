@@ -1,7 +1,9 @@
+var commonURL = "../";
+
 function createHeader() {
     const header = document.getElementsByTagName("header")[0];
     header.innerHTML = `
-        <p><a href="${location.protocol}//${location.host}/index.html">Electone技術屋</p>
+        <p><a href="${commonURL}index.html">Electone技術屋</p>
     `;
 }
 
@@ -15,7 +17,7 @@ function createFooter() {
 
 window.onload = () => {
     document.title += " | Electone技術屋";
-
+    console.log(commonURL);
     createHeader();
     createFooter();
 }
