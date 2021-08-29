@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="jp">
+
+    <head prefix="og: http://ogp.me/ns#">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Domino用 音源定義ファイル</title>
+        <meta name="description" content="サポートMIDIファイルを作成する際のデフォルトフォーマットを提供します。">
+        <meta property="og:title" content="サポートMIDIファイル生成器" />
+        <meta property="og:description" content="サポートMIDIファイルを作成する際のデフォルトフォーマットを提供します。" />
+        <meta property="og:site_name" content="エレクトーン技術屋" />
+
+        <link rel="icon" href="../favicon.ico">
+
+        <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP" rel="stylesheet">
+        <link rel="stylesheet" href="https://necolas.github.io/normalize.css/latest/normalize.css">
+        <link rel="stylesheet" href="../common.css">
+        <link rel="stylesheet" href="main.css">
+
+        <script type="module" src="../common.js"></script>
+    </head>
+
+    <body>
+        <header></header>
+        <div id="title">
+            <h1>Domino用 音源定義ファイル</h1>
+        </div>
+        <main>
+            <div>MIDI音楽編集ソフト「Domino」用の音源定義ファイルや、関連するdmsファイルなどを提供します。</div>
+
+            <div class="group">
+                <p>音源定義ファイル（electone.xml）のダウンロード</p>
+                <button type="button"><a href="file/electone.xml" download>ダウンロード(v1.0.0)</a></button>
+                <h2>機能</h2>
+                <div>
+                    <ul>
+                        <li>音色情報（Program Chenge）</li>
+                        <li>コントロールチェンジマクロ情報</li>
+                        <li>テンプレート</li>
+                        <ul>
+                            <li>SEQ.1~4 ON</li>
+                        </ul>
+                    </ul>
+                    など。詳しくは<a href="https://github.com/kamekyame/el-domino_define/tree/v1.0.0">こちら</a>をご覧ください。
+                </div>
+                <h2>使用方法</h2>
+                <div>
+                    <ol>
+                        <li>electone.xmlをDomino.exeと同じ位置にあるModuleフォルダ内にコピーする。</li>
+                        <li>Dominoを起動(再起動)する。</li>
+                        <li>「ファイル」→「環境設定」→「MIDI-OUT」、任意のポートの音源をelectoneに変える。</li>
+                    </ol>
+                </div>
+            </div>
+            <div class="group">
+                <p>サンプルファイルのダウンロード（事前に音源定義ファイルのインストールが必要です）</p>
+                <p>
+                <h3>・<a href="https://github.com/kamekyame/el-domino_define/blob/v1.0.0/sample/Panel%20Switch%20Event%20tester.dms?raw=true"
+                        download>Panel Switch Event tester</a></h3>
+                <div>
+                    パネルスイッチイベントを送信するテストファイルです。
+                </div>
+                </p>
+            </div>
+        </main>
+        <footer></footer>
+    </body>
+
+</html>
